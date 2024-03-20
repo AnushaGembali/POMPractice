@@ -44,7 +44,7 @@ public class JavascriptExecutorUtil {
 //		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].style.background = '"+color+"'",element);
 		try {
-			Thread.sleep(Duration.ofSeconds((long) 0.5));
+			Thread.sleep(Duration.ofSeconds(1));
 		}catch(InterruptedException e) {
 			
 		}
